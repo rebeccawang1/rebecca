@@ -1,0 +1,182 @@
+body{
+background:white;
+height:3000px;
+width:6100px;
+font-family: Avenir;
+}
+
+ul {
+  filter: drop-shadow(0px);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+ul:hover{
+  filter:drop-shadow(8px 8px 10px gray);
+}
+
+li {
+  font-size: 60px;
+  float: left;
+    width:2100px;
+}
+
+li a {
+  filter: drop-shadow(0px);
+  display: block;
+  width: 28%;
+  color: black;
+  text-align: center;
+  padding: 80px 600px;
+  text-decoration: none;
+}
+
+li a:hover {
+  filter: drop-shadow(8px 8px 10px gray);
+  background-color: rgb(242,232,222,0.5);
+}
+
+.vf video {
+  max-width: 60%;
+  margin-top: 180px;
+  margin-left: 2000px;
+  position: absolute;
+  float:center;
+  z-index: 2;
+}
+
+
+.vd video {
+  max-width: 60%;
+  margin-left: 2000px;
+  margin-top: 1300px;
+  position: absolute;
+  float:center;
+  z-index: 2;
+}
+
+.vg video {
+  max-width: 60%;
+  margin-top: 2450px;
+  margin-left: 2000px;
+  position: absolute;
+  float:center;
+  z-index: 2;
+}
+
+.t{
+    filter:drop-shadow(0px);
+    transition: all 0.25s;
+    margin-top:950px;
+    margin-left:1800px;
+    position: absolute;
+    z-index: 2;
+}
+
+.m{
+    filter:drop-shadow(0px);
+    transition: all 0.25s;
+    margin-top:2060px;
+    margin-left:1710px;
+    position: absolute;
+    z-index: 2;
+}
+
+.h{
+    filter:drop-shadow(0px);
+    transition: all 0.25s;
+    margin-top:3220px;
+    margin-left:1790px;
+    position: absolute;
+    z-index: 2;
+}
+
+
+.title{
+  filter: drop-shadow(0px);
+  margin-left: 98%;
+  width:92%;
+  font-size: 150px;
+  padding:4%;
+  font-family: sans-serif;
+}
+
+.title:hover{
+  filter: drop-shadow(8px 8px 10px gray);
+}
+
+h1{
+  color:rgb(242,232,222);
+  filter:drop-shadow(0px);
+  font-size: 60px;
+  margin-left: 44%;
+  margin-top:25%;
+  letter-spacing: 8px;
+  bottom:10px;
+  position:fixed;
+}
+
+h1:hover{
+  filter:drop-shadow(8px 8px 10px gray);
+}
+
+h1 a{
+  color: black;
+  text-decoration:none;
+}
+
+.slideshow-container {
+  max-width: 900px;
+  max-height:800px;
+  margin-top: 10px;
+  position: relative;
+  margin-left: -10px;
+  z-index:1;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  margin-left: -120px;
+  top: 0;
+}
+
+.mySlides {
+  display: none;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+#
+@-webkit-keyframes mySlides fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
